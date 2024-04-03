@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #dcdfe6;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    font-size: 25px;
+    font-family: sans-serif;
+    position: fixed;
+    top: 0;
+    gap: 550px;
+    background-color: rgb(218, 213, 213);
+    width: 100%;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: red;
+}
+nav h3 span{
+    color: orange;
+}
+.topDetail{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.detail{
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+.detail1 img{
+    width: 300px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 50%;    
+}
+.detail h2{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 25px;
+}
+.detail p{
+    display: flex;
+    color: #555;
+    line-height: 22px;
+    text-align: center;
+}
+.detail h2 span{
+    color: orange;
+}
+.detail button{
+    margin-top: 10%;
+    
+    background-color: #212121;
+    color: #fff;
+    padding: 10px;
+    font-weight:500;
+    font-size: large;
+    border: none;
+    border-radius: 5px;
+}
+.detail button:hover{
+    background-color:  green;
+}
+.skills{
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10%;
+    flex-wrap: wrap;
+}
+.skills h2{
+    color: orange;
+    text-align: left;
+    margin-bottom: 40px;
+    font-size: 40px;
+    margin-left: 10px;
+}
+.technical-skills{
+    text-align: left;
+    margin-bottom: 80px;
+}
+.education{
+    text-align: left;
+}
+
+.skills h3 span{
+    color: #555;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.technical-skills h3{
+    padding: 10px;
+    font-size: 25px;
+}
+.education  span{
+    color: #555;
+    font-size: small;
+    font-weight: lighter;
+    margin-left: 40px;
+}
+.education h3{
+    margin-left: 10px;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.education h4{
+    font-weight:200;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+.education h4 span{
+    font-size: 20px;
+}
+.education .degree{
+    margin-left: 90px;
+}
+.education .school12{
+    margin-left: 60px;
+}
+.education .school10{
+    margin-left: 77px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+    flex-wrap: wrap;
+}
+.container img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 10px;
+}
+.container .card1, .card2, .card3{
+    background-color: rgb(241, 176, 54);
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 8px 0px;
+}
+.card1 h3,h4{
+    margin: 10px;
+}
+.projects h1{
+    text-align: center;
+    margin-top: 70px;
+    color: orange;
+    font-size: 50px;
+}
